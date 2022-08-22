@@ -81,9 +81,13 @@ header .profile-image:hover {
   color: black;
   padding: 10px;
   border-radius: 5px;
+  border: 3px solid #99ffb4;
   display: table;
   margin: 10px auto;
 } 
+.tag:hover {
+  transform: scale(1.05);
+}
 .location {
   background-color: #efefef;
   color: black;
@@ -154,9 +158,6 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
-}
 a.linkedin {
   background-image: url(images/linkedin.svg);
 }
@@ -164,6 +165,7 @@ a.github {
   background-image: url(images/github.svg);
 }
 a.social:hover {
+  transform: scale(1.5);
   opacity: 1;
 }
 .clearfix {
